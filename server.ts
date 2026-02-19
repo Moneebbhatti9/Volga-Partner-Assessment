@@ -11,7 +11,7 @@ import fs from 'fs';
 
 
 if (!config.groq.apiKey) {
-  logger.warn('⚠️  OPENAI_API_KEY is not set. Transcription calls will fail.');
+  logger.warn('⚠️  Groq_API_KEY is not set. Transcription calls will fail.');
 }
 
 const server = app.listen(config.server.port, () => {

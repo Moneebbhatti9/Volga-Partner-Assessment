@@ -91,7 +91,7 @@ export function splitAudioIntoChunks(
 }
 
 /**
- * Convert any audio format to MP3 (Whisper-compatible).
+ * Convert any audio format to MP3.
  * Returns the path to the converted file.
  */
 export function convertToMp3(inputPath: string, outputDir: string): Promise<string> {
